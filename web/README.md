@@ -5,6 +5,11 @@ We will be using Next.js, specifically Next.js version 13 and later to develop o
 
 Additionally, we will be using Vercel to host the web app for free and Firebase to provide common use case services such as Authentication, Database, Analytics and more. 
 
+## Event 1 instructions
+
+This branch is the starter for Event 1. 
+This event will be mostly for introducing you to Nextjs version 13, however we will be doing some live coding to get you familiar to some of the concepts.
+Head to the `app/product/page.tsx` file and follow the instructions in the comments to get started.
 
 ## Acknowledgements
 

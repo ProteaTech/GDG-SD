@@ -1,4 +1,19 @@
 'use client'
+
+/*
+ TODO: 
+  We dont want to view just one product, we want to view a list of products and have the ability 
+  to view each one if we choose to.
+  We also want to be able to use server rendered components as much as possible.
+
+  Here are some steps:
+  - Create a new url for /products by creating a folder under /app page called products
+  - Move our product route into this folder and rename it to [productId]
+  - Create a shared layout for all products to reduce load times
+  - Break up this file into smaller components so that the majority of the page is server rendered and 
+    only the functional pieces are client rendered
+*/
+
 import { useState } from 'react'
 import { Disclosure, RadioGroup, Tab } from '@headlessui/react'
 import { StarIcon } from '@heroicons/react/20/solid'
